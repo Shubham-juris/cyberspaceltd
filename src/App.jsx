@@ -1,13 +1,16 @@
-import { useState } from 'react';
-
+import React from 'react';
 import './App.css';
+import Router from './Router/Router';
+import Header from './Componentes/Common/Header';
+import Footer from './Componentes/Common/Footer';
+
 
 function App() {
   return (
     <>
-      <h1 class='text-3xl font-bold underline text-center mt-14 py-24 bg-stone-600'>
-        Hello world!
-      </h1>
+      <Header />
+      <Router />
+      <Footer />
     </>
   );
 }
