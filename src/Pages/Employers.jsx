@@ -3,7 +3,7 @@ import Img from "../assets/About/vision.jpg";
 
 const Employers = () => {
   return (
-    <div className="px-4 sm:px-8 md:px-16 py-16 space-y-24 bg-white text-gray-800">
+    <div className="px-4 sm:px-8 md:px-16 py-16 space-y-24 mt-15 bg-white text-gray-800">
     
       <section className="text-center space-y-6">
         <h2 className="text-3xl md:text-4xl font-bold">

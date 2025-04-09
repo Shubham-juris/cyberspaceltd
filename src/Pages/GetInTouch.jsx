@@ -3,8 +3,7 @@ import Img from "../assets/About/hand.jpg";
 
 export default function GetInTouch() {
   return (
-    <section className="px-4 py-16 max-w-7xl mx-auto">
-      {/* About Section */}
+    <section className="px-4 py-16 max-w-7xl mx-auto mt-15">
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold text-orange-600 mb-4">
           About ITJobBoard
@@ -28,7 +27,6 @@ export default function GetInTouch() {
         </div>
       </div>
 
-      {/* Contact Form Section */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold text-orange-600 mb-4">
           Get In Touch
@@ -37,7 +35,6 @@ export default function GetInTouch() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        {/* Contact Form */}
         <form className="space-y-5">
           <input
             type="text"
@@ -71,7 +68,6 @@ export default function GetInTouch() {
           </p>
         </form>
 
-        {/* Contact Info */}
         <div className="space-y-8">
           <div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">

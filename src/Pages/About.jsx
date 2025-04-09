@@ -9,7 +9,6 @@ function About() {
   return (
     <>
       <div className="font-sans text-gray-800 mt-17">
-        {/* Hero Banner */}
         <div
           className="w-full h-[400px] flex flex-col justify-center items-center text-white text-center"
           style={{
@@ -24,7 +23,6 @@ function About() {
           </button>
         </div>
 
-        {/* Introduction Text */}
         <div className="bg-white py-10 px-4 md:px-20 text-center">
           <p className="text-gray-700 text-lg max-w-4xl mx-auto">
             Welcome to Cyberspace-Inc, your premier destination for connecting
@@ -36,7 +34,6 @@ function About() {
           </p>
         </div>
 
-        {/* Two Column Section */}
         <div className="py-12 px-4 md:px-20 grid md:grid-cols-2 gap-8 items-center">
           <img src={hand} alt="Handshake" className="rounded-lg shadow-md" />
           <div className="text-orange-700 text-xl leading-relaxed">
@@ -49,7 +46,6 @@ function About() {
           </div>
         </div>
 
-        {/* Chat Icon */}
         <div className="fixed bottom-5 right-5">
           <button className="bg-orange-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600">
             💬
@@ -61,7 +57,6 @@ function About() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-10 text-left">
-            {/* Mission */}
             <div className="flex flex-col items-center">
               <img
                 src={mission}
@@ -80,7 +75,6 @@ function About() {
               </p>
             </div>
 
-            {/* Vision */}
             <div className="flex flex-col items-center">
               <img
                 src={vision}
@@ -100,7 +94,6 @@ function About() {
             </div>
           </div>
 
-          {/* Chat Icon */}
           <div className="fixed bottom-5 right-5">
             <button className="bg-orange-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600">
               💬
@@ -114,7 +107,7 @@ function About() {
 
           <p className="text-center text-gray-700 max-w-3xl mx-auto mb-10">
             At Cyberspace-Inc, we believe in the power of community. Whether
-            you're an experienced IT professional or an employer seeking top
+            you're an experienced IT professional or an employer seeking top 
             talent, we invite you to become a part of our vibrant and inclusive
             community. Here's why you should join us:
           </p>
