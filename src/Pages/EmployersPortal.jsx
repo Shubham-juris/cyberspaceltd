@@ -3,7 +3,8 @@ import Img from "../assets/About/vision.jpg";
 
 const EmployersPortal= () => {
   return (
-    <section className="px-4 py-20 md:px-16 lg:px-32 bg-white text-gray-800">
+    <>
+    <section className="px-4 py-20 md:px-16 lg:px-32 bg-white text-gray-800 mt-15">
      
       <div className="flex flex-col-reverse md:flex-row items-center gap-12">
         <div className="md:w-1/2">
@@ -79,9 +80,11 @@ const EmployersPortal= () => {
               </button>
             </div>
           ))}
-        </div>
+        </div>  
       </div>
     </section>
+    
+    </>
   );
 };
 
