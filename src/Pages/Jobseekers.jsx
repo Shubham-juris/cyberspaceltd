@@ -19,7 +19,6 @@ function Jobseekers() {
           className="rounded-md shadow-lg"
         />
         <div className="max-w-lg text-center md:text-left">
-          <h2 className="text-xl font-semibold mb-3 text-center">Hello</h2>
           <p className="text-gray-700">
             Welcome to the Cyberspace-Inc Job Board, your gateway to exciting career opportunities in the thriving field of information technology. Whether you're a seasoned IT professional or a recent graduate eager to kick-start your career, our job board offers a diverse range of roles and opportunities to explore. With a commitment to connecting talented individuals with leading employers, we strive to make your job search experience seamless, efficient, and rewarding.
           </p>
