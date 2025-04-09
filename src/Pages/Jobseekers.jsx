@@ -275,7 +275,7 @@ const Jobseekers = () => {
         ))}
       </div>
     </div>
-  );
+  );       
 };
 
 export default Jobseekers;
