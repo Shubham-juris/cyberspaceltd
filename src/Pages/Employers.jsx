@@ -3,85 +3,93 @@ import Img from "../assets/About/vision.jpg";
 
 const Employers = () => {
   return (
-    <section className="px-4 py-20 md:px-16 lg:px-32 bg-white text-gray-800">
-     
-      <div className="flex flex-col-reverse md:flex-row items-center gap-12">
-        <div className="md:w-1/2">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Employers Portal:
-            <br className="hidden md:block" />
-            <span className="text-orange-500"> Pricing for IT Job Postings on Cyberspace</span>
-          </h1>
-          <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-            Welcome to the Employers Portal of Cyberspace-Inc! We're excited to offer you an efficient and effective platform to connect with top IT talent and fill your job openings with qualified professionals. Below, you'll find our pricing options for posting IT jobs on Cyberspace-Inc.
-          </p>
-        </div>
-        <div className="md:w-1/2">
-          <img
-            src={Img}
-            alt="Employer using tablet"
-            className="rounded-2xl shadow-lg w-full object-cover h-full max-h-[400px]"
-          />
-        </div>
-      </div>
+    <div className="px-4 sm:px-8 md:px-16 py-16 space-y-24 bg-white text-gray-800">
+    
+      <section className="text-center space-y-6">
+        <h2 className="text-3xl md:text-4xl font-bold">
+          Explore Our Comprehensive Services
+        </h2>
+        <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
+          Welcome to the Cyberspace-Inc Job Board! As an employer, you have the opportunity
+          to connect with top talent and find the perfect candidates to join your team. Our
+          platform offers a range of features and services designed to streamline your hiring
+          process and attract qualified professionals in the technology sector.
+        </p>
+        <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition-all duration-300">
+          FIND OUT MORE
+        </button>
+      </section>
 
 
-      <div className="mt-20 text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-orange-600 mb-6">About ITJobBoard</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
-        
+      <section className="text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-orange-600 mb-12">
+          Why Choose Cyberspace-Inc?
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-left">
           {[
             {
-              title: "Basic Posting Package",
-              price: "$29.99/month",
-              features: [
-                "Post up to 3 job listings per month.",
-                "Standard job listing with basic features.",
-                "Exposure to our candidate database.",
-                "Limited access to candidate matching tools.",
-              ],
+              title: "Access to Top Talent",
+              text:
+                "Our job board attracts highly skilled IT professionals from diverse backgrounds and expertise. Whether you're looking for software developers, cybersecurity experts, data analysts, or IT consultants, you'll find talented candidates with the skills and experience you need to drive your business forward.",
             },
             {
-              title: "Standard Posting Package",
-              price: "$39.99/month",
-              features: [
-                "Post up to 5 job listings per month.",
-                "Enhanced job listings with additional features.",
-                "Priority placement in search results.",
-                "Access to candidate matching tools for improved recruitment.",
-              ],
+              title: "Easy Job Posting",
+              text:
+                "Posting your job openings on Cyberspace-Inc is quick and easy. Simply create an account, upload your job description, and reach thousands of qualified candidates in just a few clicks. Our user-friendly platform allows you to manage and track your job postings with ease.",
             },
             {
-              title: "Premium Posting Package",
-              price: "$60/month",
-              features: [
-                "Post unlimited job listings per month.",
-                "Premium job listings with advanced features.",
-                "Featured placement on our homepage and job search results.",
-                "Access to advanced candidate matching tools and analytics.",
-              ],
+              title: "Customized Recruitment Solutions",
+              text:
+                "We understand that every hiring need is unique. That's why we offer customized recruitment solutions tailored to meet your specific requirements. Whether you're looking to fill a single position or recruit for multiple roles, our team will work with you to develop a personalized strategy that aligns with your goals and budget.",
             },
-          ].map((pkg, index) => (
+            {
+              title: "Targeted Candidate Matching",
+              text:
+                "Our advanced candidate matching algorithm helps you find the perfect candidates for your job openings. We analyze candidate profiles, skills, and preferences to match them with relevant job opportunities, ensuring that you connect with the most qualified candidates for your roles.",
+            },
+            {
+              title: "Employer Branding Opportunities",
+              text:
+                "Showcase your company culture, values, and unique selling points to attract top talent. Our platform allows you to create a branded company profile, highlight your company's mission and values, and showcase employee testimonials and success stories to attract candidates who align with your organization's culture.",
+            },
+            {
+              title: "Dedicated Support",
+              text:
+                "Our dedicated support team is here to assist you every step of the way. Whether you have questions about posting jobs, managing applications, or optimizing your recruitment strategy, we're here to help. Contact us for personalized assistance and guidance to make the most of your recruitment efforts.",
+            },
+          ].map((item, idx) => (
             <div
-              key={index}
-              className="border rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300"
+              key={idx}
+              className="bg-gray-50 hover:bg-white p-6 rounded-xl shadow-sm transition-all duration-300"
             >
-              <h3 className="text-xl font-semibold text-orange-500 mb-3">
-                {pkg.title} - <span className="text-gray-700">{pkg.price}</span>
+              <h3 className="text-xl font-semibold mb-2 text-orange-500">
+                {item.title}
               </h3>
-              <ul className="text-left list-disc list-inside text-sm text-gray-600 space-y-2">
-                {pkg.features.map((feature, i) => (
-                  <li key={i}>{feature}</li>
-                ))}
-              </ul>
-              <button className="mt-6 bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300 transition">
-                Learn More
-              </button>
+              <p className="text-sm text-gray-600">{item.text}</p>
             </div>
           ))}
         </div>
-      </div>
-    </section>
+      </section>
+
+ 
+      <section className="flex flex-col md:flex-row items-center gap-10">
+        <img
+          src={Img}
+          alt="Handshake"
+          className="w-full md:w-1/2 rounded-2xl shadow-lg"
+        />
+        <div className="md:w-1/2 text-center md:text-left space-y-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-orange-600">
+            Get Started Today!
+          </h2>
+          <p className="text-gray-700 text-base md:text-lg">
+            Ready to find your next star employee? Sign up for an employer account on Cyberspace-Inc
+            and start posting your job openings today. Join our community of leading employers and
+            discover the talent you need to drive innovation and success in your organization.
+          </p>
+        </div>
+      </section>
+    </div>
   );
 };
 
