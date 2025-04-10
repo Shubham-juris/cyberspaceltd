@@ -68,7 +68,7 @@ export default function GetInTouch() {
           </p>
         </form>
 
-        <div className="space-y-8">
+         <div className="space-y-8">
           <div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Questions or Comments
@@ -85,7 +85,7 @@ export default function GetInTouch() {
             </h3>
             <p className="text-gray-600">
               <a
-                href="https://cyberspace-inc.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-600 underline hover:text-orange-700 transition"

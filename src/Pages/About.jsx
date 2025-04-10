@@ -27,7 +27,7 @@ function About() {
           <p className="text-gray-700 text-lg max-w-4xl mx-auto">
             Welcome to Cyberspace-Inc, your premier destination for connecting
             talented IT professionals with exciting career opportunities in the
-            technology sector. Established with a vision to revolutionize the
+            technology sector. Established with   vision to revolutionize the
             way individuals navigate the job market, Cyberspace-Inc serves as a
             trusted platform where job seekers and employers come together to
             explore, discover, and connect.

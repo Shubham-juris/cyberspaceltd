@@ -85,7 +85,7 @@ const Employers = () => {
           <p className="text-gray-700 text-base md:text-lg">
             Ready to find your next star employee? Sign up for an employer account on Cyberspace-Inc
             and start posting your job openings today. Join our community of leading employers and
-            discover the talent you need to drive innovation and success in your organization.
+            discover the talent you need to drive innovation And success in your organization.
           </p>
         </div>
       </section>

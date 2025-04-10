@@ -38,7 +38,7 @@ const EmployersPortal= () => {
               features: [
                 "Post up to 3 job listings per month.",
                 "Standard job listing with basic features.",
-                "Exposure to our candidate database.",
+                "Exposure  our candidate database.",
                 "Limited access to candidate matching tools.",
               ],
             },

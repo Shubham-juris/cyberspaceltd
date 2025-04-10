@@ -8,12 +8,10 @@ function Header() {
   return (
     <header className="w-full shadow-md fixed top-0 left-0 bg-white z-50">
       <div className="flex justify-between items-center py-4 px-6 lg:px-16">
-        {/* Logo */}
         <div className="text-2xl font-bold text-gray-800">
           Cyberspace-inc
         </div>
 
-        {/* Hamburger Icon (shows below lg breakpoint) */}
         <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -22,8 +20,6 @@ function Header() {
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
-
-        {/* Desktop Nav (only shows on lg and up) */}
         <nav className="hidden lg:flex">
           <ul className="flex xl:gap-8 gap-4 text-gray-700 font-bold items-center">
             <li><Link to="/" className="hover:text-blue-600">HOME</Link></li>
@@ -36,7 +32,6 @@ function Header() {
         </nav>
       </div>
 
-      {/* Mobile/Tablet Nav */}
       {isOpen && (
         <nav className="lg:hidden px-6 pb-4">
           <ul className="flex flex-col gap-4 text-gray-700 font-bold">
