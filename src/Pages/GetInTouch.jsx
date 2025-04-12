@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../assets/About/hand.jpg";
+import Img from "../assets/contact/img.jpg";
 
 export default function GetInTouch() {
   return (
