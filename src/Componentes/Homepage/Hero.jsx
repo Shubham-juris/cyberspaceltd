@@ -1,5 +1,5 @@
 import React from 'react';
-import Homeimg1 from '../../assets/Home/Homeimg1.jpg';
+import Homeimg1 from '../../assets/Home/homeimg1.jpg';
 import Button from '../Button';
 
 function Hero() {
