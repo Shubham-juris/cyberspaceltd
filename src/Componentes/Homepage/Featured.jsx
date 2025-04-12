@@ -1,5 +1,5 @@
 import React from 'react'
-import Featured1 from '../../assets/Home/Featured1.jpg'
+import Featured1 from '../../assets/Home/featured1.jpg'
 import Featured2 from '../../assets/Home/featured2.jpg'
 import Featured3 from '../../assets/Home/featured3.jpg'
 import Featured4 from '../../assets/Home/featured4.jpg'

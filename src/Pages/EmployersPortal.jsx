@@ -131,7 +131,7 @@ const EmployersPortal = () => {
             </li>
             <li>
               Dedicated support from our team of experts to assist you
-              throughout the hiring process.
+              throughout the hiring process
             </li>
           </ul>
         </div>
