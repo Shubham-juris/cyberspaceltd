@@ -1,5 +1,5 @@
 
-import Homeimg2 from '../../assets/Home/Homeimg2.jpg'
+import Homeimg2 from "../../assets/Home/Homeimg2.jpg";
   
 export default function SetsApart() {
     return (
