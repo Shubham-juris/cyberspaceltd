@@ -1,7 +1,7 @@
-import React from 'react'
+
 import Homeimg2 from '../../assets/Home/Homeimg2.jpg'
   
-function SetsApart() {
+export default function SetsApart() {
     return (
         <section className='w-full py-10 mx-auto bg-gray-100 my-3'>
             <div className='text-center flex flex-col items-center'>
@@ -14,10 +14,6 @@ function SetsApart() {
                 <img src={Homeimg2}   className=' rounded-xl w-[80%]' alt="" />
                 </div>
             </div>
-
-
         </section>
     )
 }
-
-export default SetsApart
