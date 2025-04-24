@@ -34,8 +34,8 @@ function About() {
           </p>
         </div>
 
-        <div className="py-12 px-4 md:px-20 grid md:grid-cols-2 gap-8 items-center">
-          <img src={hand} alt="Handshake" className="rounded-lg shadow-md" />
+        <div className="max-w-7xl mx-auto py-12 px-4 md:px-20 grid md:grid-cols-2 gap-8 items-center">
+        <img src={hand} alt="Handshake" className="rounded-lg shadow-md" />
           <div className="text-orange-700 text-xl leading-relaxed">
             <p>
               At Cyberspace-Inc, we believe that the future of technology lies
@@ -56,7 +56,7 @@ function About() {
             Mission and Vision
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-10 text-left">
+          <div className="grid max-w-7xl justify-center mx-auto md:grid-cols-2 gap-10 text-left">
             <div className="flex flex-col items-center">
               <img
                 src={mission}

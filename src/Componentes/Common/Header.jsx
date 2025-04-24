@@ -6,8 +6,8 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full shadow-md fixed top-0 left-0 bg-white z-50">
-      <div className="flex justify-between items-center py-4 px-6 lg:px-16">
+    <header className="w-full  shadow-md fixed top-0 left-0 bg-white z-50">
+      <div className="flex justify-between items-center py-4 px-6 lg:px-16 max-w-7xl  mx-auto">
         <div className="text-2xl font-bold text-gray-800">
           Cyberspace-inc
         </div>

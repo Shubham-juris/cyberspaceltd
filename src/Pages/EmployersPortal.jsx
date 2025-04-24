@@ -7,7 +7,7 @@ const EmployersPortal = () => {
   return (
     <>
       <section className="px-4 py-20 md:px-16 lg:px-32 bg-white text-gray-800 mt-15">
-        <div className="flex flex-col-reverse md:flex-row items-center gap-12">
+        <div className="flex max-w-7xl justify-center mx-auto flex-col-reverse md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img
               src={Img}
@@ -38,7 +38,7 @@ const EmployersPortal = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-orange-600 mb-6">
             About ITJobBoard
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+          <div className="grid max-w-7xl justify-center mx-auto grid-cols-1 md:grid-cols-3 gap-10 mt-10">
             {[
               {
                 title: "Basic Posting Package",

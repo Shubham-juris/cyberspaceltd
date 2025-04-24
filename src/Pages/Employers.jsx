@@ -25,7 +25,7 @@ const Employers = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-orange-600 mb-12">
           Why Choose Cyberspace-Inc?
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-left">
+        <div className="grid max-w-7xl justify-center mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-left">
           {[
             {
               title: "Access to Top Talent",
@@ -72,7 +72,7 @@ const Employers = () => {
       </section>
 
  
-      <section className="flex flex-col md:flex-row items-center gap-10">
+      <section className="flex max-w-7xl justify-center mx-auto flex-col md:flex-row items-center gap-10">
         <img
           src={Img}
           alt="Handshake"
