@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "../../assets/Home/logo.png"; // Adjust the path as needed
+import logo from "../../assets/logo/cyberspace.jpg"; 
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ function Header() {
       <div className="flex justify-between items-center py-4 px-6 lg:px-16 max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Cyberspace Logo" className="h-10 w-auto" />
-          <span className="text-2xl font-bold text-gray-800 hidden sm:inline">cyberspaceltd</span>
+          <span className="text-2xl font-bold text-gray-800 hidden sm:inline">Cyberspace-Inc</span>
         </Link>
 
         <div className="lg:hidden">
